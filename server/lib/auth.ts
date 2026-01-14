@@ -25,10 +25,10 @@ trustedOrigins.push(frontendUrl);
 // Add production domains (always include these for production deployments)
 if (isProduction) {
   trustedOrigins.push(
-    "https://plumbproestimate.dev",
-    "https://www.plumbproestimate.dev",
+    "https://hvacestimatepro.dev",
+    "https://www.hvacestimatepro.dev",
     // Netlify preview/deploy URLs
-    "https://plumbpro-estimate.netlify.app"
+    "https://hvac-estimate-pro.netlify.app"
   );
 }
 
