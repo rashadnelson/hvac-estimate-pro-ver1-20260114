@@ -179,7 +179,7 @@ const Signup = () => {
       <div className="min-h-screen flex flex-col bg-[#1A1A1A]">
         <Header />
         <main className="flex-1 flex items-center justify-center">
-          <Loader2 className="h-8 w-8 animate-spin text-[#C41E3A]" />
+          <Loader2 className="h-8 w-8 animate-spin text-[#F97316]" />
         </main>
         <Footer />
       </div>
@@ -227,7 +227,7 @@ const Signup = () => {
                           aria-required="true"
                           aria-invalid={!!form.formState.errors.companyName}
                           aria-describedby={form.formState.errors.companyName ? "companyName-error" : undefined}
-                          className="bg-[#1A1A1A] border-white/20 text-white placeholder:text-white/40 focus:border-[#C41E3A] focus:ring-[#C41E3A]"
+                          className="bg-[#1A1A1A] border-white/20 text-white placeholder:text-white/40 focus:border-[#F97316] focus:ring-[#F97316]"
                         />
                       </FormControl>
                       <FormMessage id="companyName-error" />
@@ -251,7 +251,7 @@ const Signup = () => {
                           aria-required="true"
                           aria-invalid={!!form.formState.errors.email}
                           aria-describedby={form.formState.errors.email ? "email-error" : undefined}
-                          className="bg-[#1A1A1A] border-white/20 text-white placeholder:text-white/40 focus:border-[#C41E3A] focus:ring-[#C41E3A]"
+                          className="bg-[#1A1A1A] border-white/20 text-white placeholder:text-white/40 focus:border-[#F97316] focus:ring-[#F97316]"
                         />
                       </FormControl>
                       <FormMessage id="email-error" />
@@ -275,7 +275,7 @@ const Signup = () => {
                           aria-required="true"
                           aria-invalid={!!form.formState.errors.password}
                           aria-describedby={form.formState.errors.password ? "password-error password-help" : "password-help"}
-                          className="bg-[#1A1A1A] border-white/20 text-white placeholder:text-white/40 focus:border-[#C41E3A] focus:ring-[#C41E3A]"
+                          className="bg-[#1A1A1A] border-white/20 text-white placeholder:text-white/40 focus:border-[#F97316] focus:ring-[#F97316]"
                         />
                       </FormControl>
                       <FormMessage id="password-error" />
@@ -301,17 +301,17 @@ const Signup = () => {
           <CardFooter className="flex flex-col space-y-4">
             <div className="text-sm text-center text-white/70">
               Already have an account?{" "}
-              <Link to="/login" className="text-[#C41E3A] hover:underline font-medium">
+              <Link to="/login" className="text-[#F97316] hover:underline font-medium">
                 Sign in
               </Link>
             </div>
             <p className="text-xs text-center text-white/50">
               By signing up, you agree to our{" "}
-              <Link to="/terms" className="text-[#C41E3A] hover:underline">
+              <Link to="/terms" className="text-[#F97316] hover:underline">
                 Terms of Service
               </Link>{" "}
               and{" "}
-              <Link to="/privacy" className="text-[#C41E3A] hover:underline">
+              <Link to="/privacy" className="text-[#F97316] hover:underline">
                 Privacy Policy
               </Link>
             </p>

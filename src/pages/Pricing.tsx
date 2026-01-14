@@ -197,12 +197,12 @@ const Pricing = () => {
             <div className="container relative">
               <div className="mx-auto max-w-3xl text-center">
                 <div className="inline-flex items-center gap-2 rounded-full bg-white/5 px-4 py-2 text-sm text-white/60 mb-6">
-                  <Zap className="h-4 w-4 text-[#C41E3A]" />
+                  <Zap className="h-4 w-4 text-[#F97316]" />
                   Simple, transparent pricing
                 </div>
                 <h1 className="font-display text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl text-white">
                   Choose the plan that
-                  <span className="block text-[#C41E3A]">fits your business</span>
+                  <span className="block text-[#F97316]">fits your business</span>
                 </h1>
                 <p className="mt-6 text-lg text-white/70 max-w-2xl mx-auto">
                   Start for free with 3 estimates per month. Upgrade anytime for unlimited access, professional PDFs, and premium features.
@@ -220,14 +220,14 @@ const Pricing = () => {
                     key={tier.name}
                     className={`relative rounded-2xl p-8 flex flex-col transition-all duration-300 ${
                       tier.highlighted
-                        ? "border-2 border-[#C41E3A] bg-[#242424] shadow-[0_0_40px_-10px_rgba(196,30,58,0.3)]"
+                        ? "border-2 border-[#F97316] bg-[#242424] shadow-[0_0_40px_-10px_rgba(249,115,22,0.3)]"
                         : "border border-white/10 bg-[#242424] hover:border-white/20"
                     }`}
                   >
                     {/* Badge */}
                     {tier.badge && (
                       <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                        <span className="inline-flex items-center gap-1 rounded-full bg-[#C41E3A] px-4 py-1.5 text-sm font-bold text-white shadow-lg">
+                        <span className="inline-flex items-center gap-1 rounded-full bg-[#F97316] px-4 py-1.5 text-sm font-bold text-white shadow-lg">
                           {tier.badge}
                         </span>
                       </div>
@@ -246,7 +246,7 @@ const Pricing = () => {
                         )}
                       </div>
                       {tier.monthlyEquivalent && (
-                        <p className="mt-1 text-sm text-[#C41E3A] font-medium">
+                        <p className="mt-1 text-sm text-[#F97316] font-medium">
                           {tier.monthlyEquivalent}
                         </p>
                       )}
@@ -262,7 +262,7 @@ const Pricing = () => {
                       {tier.features.map((feature) => (
                         <li key={feature.name} className="flex items-center gap-3">
                           {feature.included ? (
-                            <div className="flex h-5 w-5 items-center justify-center rounded-full bg-[#C41E3A]/20 text-[#C41E3A] flex-shrink-0">
+                            <div className="flex h-5 w-5 items-center justify-center rounded-full bg-[#F97316]/20 text-[#F97316] flex-shrink-0">
                               <Check className="h-3 w-3" />
                             </div>
                           ) : (
@@ -326,15 +326,15 @@ const Pricing = () => {
               {/* Trust indicators */}
               <div className="mt-16 flex flex-wrap justify-center gap-8 text-sm text-white/50">
                 <div className="flex items-center gap-2">
-                  <Shield className="h-4 w-4 text-[#C41E3A]" />
+                  <Shield className="h-4 w-4 text-[#F97316]" />
                   <span>Secure payments via Stripe</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <Clock className="h-4 w-4 text-[#C41E3A]" />
+                  <Clock className="h-4 w-4 text-[#F97316]" />
                   <span>Cancel anytime</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <Zap className="h-4 w-4 text-[#C41E3A]" />
+                  <Zap className="h-4 w-4 text-[#F97316]" />
                   <span>Instant activation</span>
                 </div>
               </div>
@@ -357,7 +357,7 @@ const Pricing = () => {
                         <th className="px-6 py-4 text-left text-sm font-semibold text-white">Feature</th>
                         <th className="px-6 py-4 text-center text-sm font-semibold text-white">Free</th>
                         <th className="px-6 py-4 text-center text-sm font-semibold text-white">Monthly</th>
-                        <th className="px-6 py-4 text-center text-sm font-semibold text-[#C41E3A]">Annual</th>
+                        <th className="px-6 py-4 text-center text-sm font-semibold text-[#F97316]">Annual</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -391,7 +391,7 @@ const Pricing = () => {
                           <div className="text-white/60">{feature.monthly}</div>
                         </div>
                         <div className="text-center">
-                          <div className="text-[#C41E3A] text-xs mb-1">Annual</div>
+                          <div className="text-[#F97316] text-xs mb-1">Annual</div>
                           <div className="text-white font-medium">{feature.annual}</div>
                         </div>
                       </div>
@@ -408,7 +408,7 @@ const Pricing = () => {
               <div className="mx-auto max-w-3xl">
                 <div className="text-center mb-12">
                   <div className="inline-flex items-center gap-2 rounded-full bg-white/5 px-4 py-2 text-sm text-white/60 mb-6">
-                    <HelpCircle className="h-4 w-4 text-[#C41E3A]" />
+                    <HelpCircle className="h-4 w-4 text-[#F97316]" />
                     Common questions
                   </div>
                   <h2 className="font-display text-3xl font-extrabold tracking-tight text-white">
@@ -421,9 +421,9 @@ const Pricing = () => {
                     <AccordionItem 
                       key={index} 
                       value={`item-${index}`}
-                      className="border border-white/10 rounded-lg px-6 bg-[#242424] data-[state=open]:border-[#C41E3A]/30"
+                      className="border border-white/10 rounded-lg px-6 bg-[#242424] data-[state=open]:border-[#F97316]/30"
                     >
-                      <AccordionTrigger className="text-left text-white hover:text-[#C41E3A] hover:no-underline py-4">
+                      <AccordionTrigger className="text-left text-white hover:text-[#F97316] hover:no-underline py-4">
                         {faq.question}
                       </AccordionTrigger>
                       <AccordionContent className="text-white/70 pb-4">

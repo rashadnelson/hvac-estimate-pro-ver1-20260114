@@ -120,7 +120,7 @@ const Login = () => {
       <div className="min-h-screen flex flex-col bg-[#1A1A1A]">
         <Header />
         <main className="flex-1 flex items-center justify-center">
-          <Loader2 className="h-8 w-8 animate-spin text-[#C41E3A]" />
+          <Loader2 className="h-8 w-8 animate-spin text-[#F97316]" />
         </main>
         <Footer />
       </div>
@@ -169,7 +169,7 @@ const Login = () => {
                           aria-required="true"
                           aria-invalid={!!form.formState.errors.email}
                           aria-describedby={form.formState.errors.email ? "email-error" : undefined}
-                          className="bg-[#1A1A1A] border-white/20 text-white placeholder:text-white/40 focus:border-[#C41E3A] focus:ring-[#C41E3A]"
+                          className="bg-[#1A1A1A] border-white/20 text-white placeholder:text-white/40 focus:border-[#F97316] focus:ring-[#F97316]"
                         />
                       </FormControl>
                       <FormMessage id="email-error" />
@@ -185,7 +185,7 @@ const Login = () => {
                         <FormLabel htmlFor="password" className="text-white">Password</FormLabel>
                         <Link
                           to="/forgot-password"
-                          className="text-xs text-[#C41E3A] hover:underline"
+                          className="text-xs text-[#F97316] hover:underline"
                         >
                           Forgot password?
                         </Link>
@@ -201,7 +201,7 @@ const Login = () => {
                           aria-required="true"
                           aria-invalid={!!form.formState.errors.password}
                           aria-describedby={form.formState.errors.password ? "password-error" : undefined}
-                          className="bg-[#1A1A1A] border-white/20 text-white placeholder:text-white/40 focus:border-[#C41E3A] focus:ring-[#C41E3A]"
+                          className="bg-[#1A1A1A] border-white/20 text-white placeholder:text-white/40 focus:border-[#F97316] focus:ring-[#F97316]"
                         />
                       </FormControl>
                       <FormMessage id="password-error" />
@@ -217,7 +217,7 @@ const Login = () => {
                         <Checkbox
                           checked={field.value}
                           onCheckedChange={field.onChange}
-                          className="border-white/20 data-[state=checked]:bg-[#C41E3A] data-[state=checked]:border-[#C41E3A]"
+                          className="border-white/20 data-[state=checked]:bg-[#F97316] data-[state=checked]:border-[#F97316]"
                         />
                       </FormControl>
                       <div className="space-y-1 leading-none">
@@ -244,7 +244,7 @@ const Login = () => {
           <CardFooter className="flex flex-col space-y-4">
             <div className="text-sm text-center text-white/70">
               Don't have an account?{" "}
-              <Link to="/signup" className="text-[#C41E3A] hover:underline font-medium">
+              <Link to="/signup" className="text-[#F97316] hover:underline font-medium">
                 Sign up
               </Link>
             </div>

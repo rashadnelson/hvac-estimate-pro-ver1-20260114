@@ -3,8 +3,8 @@
  */
 export const COLORS = {
   primary: {
-    crimson: '#C41E3A',
-    crimsonDark: '#A01830',
+    orange: '#F97316',
+    orangeDark: '#EA580C',
   },
   background: {
     dark: '#1A1A1A',

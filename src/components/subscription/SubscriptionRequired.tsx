@@ -177,7 +177,7 @@ export function SubscriptionRequired({
         <main className="flex-1 flex items-center justify-center px-4" role="main" aria-label="Subscription required">
           <Card className="w-full max-w-md bg-[#242424] border-white/10">
             <CardHeader className="text-center">
-              <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#C41E3A]/20">
+              <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#F97316]/20">
                 <CreditCard className="h-6 w-6 text-[#F97316]" />
               </div>
               <CardTitle className="text-white">{content.title}</CardTitle>
@@ -188,7 +188,7 @@ export function SubscriptionRequired({
             <CardContent className="flex flex-col gap-4">
               <Button 
                 onClick={handlePayment} 
-                className="w-full gap-2 bg-[#C41E3A] hover:bg-[#A01830] text-white"
+                className="w-full gap-2 bg-[#F97316] hover:bg-[#EA580C] text-white"
               >
                 <CreditCard className="h-4 w-4" />
                 {content.primaryAction}
@@ -203,7 +203,7 @@ export function SubscriptionRequired({
                     variant="outline" 
                     onClick={handleVerify}
                     disabled={isVerifying}
-                    className="w-full gap-2 border-[#C41E3A]/50 text-[#F97316] hover:bg-[#C41E3A]/10 hover:text-[#F97316]"
+                    className="w-full gap-2 border-[#F97316]/50 text-[#F97316] hover:bg-[#F97316]/10 hover:text-[#F97316]"
                   >
                     {isVerifying ? (
                       <RefreshCw className="h-4 w-4 animate-spin" />
