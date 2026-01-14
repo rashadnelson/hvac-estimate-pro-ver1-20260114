@@ -17,7 +17,7 @@ const HeroSection = () => {
           {/* Badge */}
           <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-accent/20 px-4 py-1.5 text-sm font-medium text-accent animate-fade-in">
             <span className="h-1.5 w-1.5 rounded-full bg-accent animate-pulse" />
-            Built for Plumbing Professionals
+            Built for HVAC Professionals
           </div>
 
           {/* Headline */}

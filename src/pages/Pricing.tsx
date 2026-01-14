@@ -120,7 +120,7 @@ const faqs = [
   },
   {
     question: "What's the difference between watermarked and clean PDFs?",
-    answer: "Free tier PDFs include a small 'Created with PlumbPro Estimate' watermark in the footer. Paid plans generate professional, clean PDFs without any branding—perfect for client presentations.",
+    answer: "Free tier PDFs include a small 'Created with HVAC Estimate Pro' watermark in the footer. Paid plans generate professional, clean PDFs without any branding—perfect for client presentations.",
   },
   {
     question: "Can I cancel my subscription anytime?",
@@ -128,7 +128,7 @@ const faqs = [
   },
   {
     question: "Do you offer refunds?",
-    answer: "We want you to be satisfied with PlumbPro Estimate. If you're not happy with your subscription, contact our support team within the first 14 days for a full refund.",
+    answer: "We want you to be satisfied with HVAC Estimate Pro. If you're not happy with your subscription, contact our support team within the first 14 days for a full refund.",
   },
   {
     question: "How does the custom logo feature work?",
@@ -176,9 +176,9 @@ const Pricing = () => {
   return (
     <>
       <SEO 
-        title="Pricing - PlumbPro Estimate"
-        description="Simple, transparent pricing for professional plumbing estimates. Start free, upgrade when you need more."
-        canonical="https://plumbproestimate.dev/pricing"
+        title="Pricing - HVAC Estimate Pro"
+        description="Simple, transparent pricing for professional HVAC estimates. Start free, upgrade when you need more."
+        canonical="https://hvacestimatepro.dev/pricing"
       />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <div className="min-h-screen flex flex-col bg-[#1A1A1A]">
@@ -444,7 +444,7 @@ const Pricing = () => {
                   Ready to streamline your estimates?
                 </h2>
                 <p className="mt-4 text-lg text-white/70">
-                  Join hundreds of plumbing professionals who create estimates in under 60 seconds.
+                  Join hundreds of HVAC professionals who create estimates in under 60 seconds.
                 </p>
                 <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
                   <Button variant="hero" size="lg" className="min-h-[48px]" asChild>

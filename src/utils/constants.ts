@@ -1,5 +1,5 @@
 /**
- * PlumbPro Estimate Brand Colors
+ * HVAC Estimate Pro Brand Colors
  */
 export const COLORS = {
   primary: {

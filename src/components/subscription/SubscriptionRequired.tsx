@@ -178,7 +178,7 @@ export function SubscriptionRequired({
           <Card className="w-full max-w-md bg-[#242424] border-white/10">
             <CardHeader className="text-center">
               <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#C41E3A]/20">
-                <CreditCard className="h-6 w-6 text-[#C41E3A]" />
+                <CreditCard className="h-6 w-6 text-[#F97316]" />
               </div>
               <CardTitle className="text-white">{content.title}</CardTitle>
               <CardDescription className="mt-2 text-white/60">
@@ -203,7 +203,7 @@ export function SubscriptionRequired({
                     variant="outline" 
                     onClick={handleVerify}
                     disabled={isVerifying}
-                    className="w-full gap-2 border-[#C41E3A]/50 text-[#C41E3A] hover:bg-[#C41E3A]/10 hover:text-[#C41E3A]"
+                    className="w-full gap-2 border-[#C41E3A]/50 text-[#F97316] hover:bg-[#C41E3A]/10 hover:text-[#F97316]"
                   >
                     {isVerifying ? (
                       <RefreshCw className="h-4 w-4 animate-spin" />
@@ -223,7 +223,7 @@ export function SubscriptionRequired({
               <div className="mt-2 text-center">
                 <p className="text-sm text-white/40">
                   Need help?{" "}
-                  <a href="mailto:support@plumbproestimate.dev" className="text-[#C41E3A] hover:underline">
+                  <a href="mailto:support@hvacestimatepro.dev" className="text-[#F97316] hover:underline">
                     Contact Support
                   </a>
                 </p>

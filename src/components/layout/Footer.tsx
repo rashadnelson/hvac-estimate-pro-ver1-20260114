@@ -12,14 +12,14 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent text-accent-foreground">
-                <Wrench className="h-4 w-4" />
+                <span className="text-base">❄️</span>
               </div>
               <span className="font-display text-lg font-extrabold">
-                PlumbPro<span className="text-accent">Estimate</span>
+                HVAC<span className="text-accent">Estimate</span> Pro
               </span>
             </div>
             <p className="text-sm text-primary-foreground/70 max-w-xs">
-              Professional estimates in under a minute. Built for plumbers who mean business.
+              Professional estimates in under a minute. Built for HVAC technicians who mean business.
             </p>
           </div>
 
@@ -50,17 +50,17 @@ const Footer = () => {
               Support
             </h4>
             <a 
-              href="mailto:support@plumbproestimate.dev" 
+              href="mailto:support@hvacestimatepro.dev" 
               className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors block"
             >
-              support@plumbproestimate.dev
+              support@hvacestimatepro.dev
             </a>
           </div>
         </div>
 
         <div className="mt-12 pt-8 border-t border-primary-foreground/10">
           <p className="text-center text-sm text-primary-foreground/50">
-            © {currentYear} PlumbPro Estimate. All rights reserved.
+            © {currentYear} HVAC Estimate Pro. All rights reserved.
           </p>
         </div>
       </div>

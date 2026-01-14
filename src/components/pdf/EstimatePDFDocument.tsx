@@ -389,7 +389,7 @@ export const EstimatePDFDocument = ({
         {/* Watermark for Free Tier */}
         {showWatermark && (
           <Text style={styles.watermark} fixed>
-            Created with PlumbPro Estimate
+            Created with HVAC Estimate Pro
           </Text>
         )}
       </Page>

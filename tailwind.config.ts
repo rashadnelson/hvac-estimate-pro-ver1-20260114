@@ -18,10 +18,10 @@ export default {
         display: ['Manrope', 'Inter', 'system-ui', 'sans-serif'],
       },
       colors: {
-        // PlumbPro Brand Colors
-        plumbpro: {
-          crimson: '#C41E3A',
-          'crimson-dark': '#A01830',
+        // HVAC Estimate Pro Brand Colors
+        hvacpro: {
+          orange: '#F97316',
+          'orange-light': '#FB923C',
           dark: '#1A1A1A',
           'dark-pattern': '#2A2A2A',
           cream: '#E8D5C4',

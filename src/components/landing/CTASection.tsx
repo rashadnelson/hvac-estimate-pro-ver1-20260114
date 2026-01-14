@@ -11,7 +11,7 @@ const CTASection = () => {
             Ready to look like a pro?
           </h2>
           <p className="mt-4 text-lg text-primary-foreground/80 max-w-xl mx-auto">
-            Join hundreds of plumbers who send professional estimates in under a minute. 
+            Join hundreds of HVAC technicians who send professional estimates in under a minute. 
             Your clients will notice the difference.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">

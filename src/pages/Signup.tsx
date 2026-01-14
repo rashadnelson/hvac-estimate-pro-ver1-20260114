@@ -194,9 +194,9 @@ const Signup = () => {
   return (
     <>
       <SEO 
-        title="Sign Up - PlumbPro Estimate"
-        description="Create your free PlumbPro Estimate account. Start generating professional plumbing estimates in under 60 seconds."
-        canonical="https://plumbproestimate.dev/signup"
+        title="Sign Up - HVAC Estimate Pro"
+        description="Create your free HVAC Estimate Pro account. Start generating professional HVAC estimates in 60 seconds."
+        canonical="https://hvacestimatepro.dev/signup"
       />
       <div className="min-h-screen flex flex-col bg-[#1A1A1A]">
         <Header />
@@ -220,7 +220,7 @@ const Signup = () => {
                       <FormControl>
                         <Input
                           id="companyName"
-                          placeholder="Your Plumbing Company"
+                          placeholder="Your HVAC Company"
                           {...field}
                           disabled={isLoading}
                           autoComplete="organization"

@@ -202,7 +202,7 @@ export default function EstimateForm({
                   data-testid="estimate-title-input"
                   value={title}
                   onChange={(e) => setTitle(e.target.value)}
-                  placeholder="e.g., Kitchen Plumbing Repair"
+                  placeholder="e.g., AC Installation - 3 Ton System"
                   className={`bg-[#1A1A1A] border-white/20 text-white placeholder:text-white/40 focus:border-[#C41E3A] focus:ring-[#C41E3A] ${errors.title ? "border-red-500" : ""}`}
                 />
                 {errors.title && <p className="text-sm text-red-400">{errors.title}</p>}

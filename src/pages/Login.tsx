@@ -135,9 +135,9 @@ const Login = () => {
   return (
     <>
       <SEO 
-        title="Login - PlumbPro Estimate"
-        description="Log in to your PlumbPro Estimate account to create and manage professional plumbing estimates."
-        canonical="https://plumbproestimate.dev/login"
+        title="Login - HVAC Estimate Pro"
+        description="Log in to your HVAC Estimate Pro account to create and manage professional HVAC estimates."
+        canonical="https://hvacestimatepro.dev/login"
       />
       <div className="min-h-screen flex flex-col bg-[#1A1A1A]">
         <Header />

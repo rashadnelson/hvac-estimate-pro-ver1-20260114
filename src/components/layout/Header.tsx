@@ -46,12 +46,12 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-[#1A1A1A]/95 backdrop-blur supports-[backdrop-filter]:bg-[#1A1A1A]/80">
       <div className="container flex h-16 items-center justify-between">
-        <Link to="/" className="flex items-center gap-2 group" aria-label="PlumbPro Estimate Home">
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#C41E3A] text-white transition-transform group-hover:scale-105" aria-hidden="true">
-            <Wrench className="h-5 w-5" />
+        <Link to="/" className="flex items-center gap-2 group" aria-label="HVAC Estimate Pro Home">
+          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#F97316] text-white transition-transform group-hover:scale-105" aria-hidden="true">
+            <span className="text-xl">❄️</span>
           </div>
           <span className="font-display text-xl font-extrabold tracking-tight text-white">
-            PlumbPro<span className="text-[#C41E3A]">Estimate</span>
+            HVAC<span className="text-[#F97316]">Estimate</span> Pro
           </span>
         </Link>
         

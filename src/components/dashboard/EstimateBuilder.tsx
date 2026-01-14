@@ -312,8 +312,8 @@ export default function EstimateBuilder({
     
     // Footer
     lines.push("─".repeat(40));
-    lines.push("Created with PlumbPro Estimate");
-    lines.push("Visit: plumbproestimate.dev");
+    lines.push("Created with HVAC Estimate Pro");
+    lines.push("Visit: hvacestimatepro.dev");
     
     return lines.join("\n");
   };

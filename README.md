@@ -1,18 +1,23 @@
-# Welcome to your Lovable project
+# HVAC Estimate Pro
+
+Professional HVAC estimate generator for HVAC contractors and technicians.
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**URL**: https://hvacestimatepro.dev
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
+## Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
+- Generate professional HVAC estimates in 60 seconds
+- Professional PDF output with your branding
+- Mobile-friendly (works on phones and tablets)
+- Automatic calculations
+- Save and reuse templates for common jobs
+- Free tier available (3 estimates/month)
 
 **Use your preferred IDE**
 
