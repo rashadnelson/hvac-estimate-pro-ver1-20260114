@@ -1,24 +1,24 @@
-## 🔧 Plumbpro Estimate: Masterplan
+## ❄️ HVAC Estimate Pro: Masterplan
 
 ### ⏱ 30-Second Elevator Pitch
-Plumbpro Estimate helps plumbing professionals send quotes that are accurate, professional, and fast. Create professional plumbing estimates in under a minute. No more messy paperwork or lost quotes—just sharp, branded PDFs your clients will trust.
+HVAC Estimate Pro helps HVAC professionals send quotes that are accurate, professional, and fast. Create professional HVAC estimates in under a minute. No more messy paperwork or lost quotes—just sharp, branded PDFs your clients will trust.
 
 ---
 
 ### 🚨 Problem & Mission
 
 **The Problem:**  
-Plumbing contractors often rely on gut feel, scribbled notes, or messy spreadsheets to price jobs—risking undercharging, losing money on materials, or appearing unprofessional to customers.
+HVAC contractors often rely on gut feel, scribbled notes, or messy spreadsheets to price jobs—risking undercharging, losing money on equipment and refrigerant, or appearing unprofessional to customers.
 
 **Our Mission:**  
-Empower plumbing professionals with a pricing assistant that's accurate, fast, and trustworthy—like a digital estimate sheet that never lets you leave money on the table.
+Empower HVAC professionals with a pricing assistant that's accurate, fast, and trustworthy—like a digital estimate sheet that never lets you leave money on the table.
 
 ---
 
 ### 🎯 Target Audience
 
-- Independent plumbers and small plumbing companies (≤15 employees)
-- Residential and commercial plumbing contractors
+- Independent HVAC technicians and small HVAC companies (≤15 employees)
+- Residential and commercial HVAC contractors
 - Service technicians providing on-site estimates
 - Users currently relying on spreadsheets, handwritten notes, or memory
 - Non-technical contractors seeking simplicity and professionalism
@@ -105,7 +105,7 @@ Empower plumbing professionals with a pricing assistant that's accurate, fast, a
 
 ### ✨ UI Design Principles
 
-- Bold, dark aesthetic with crimson accents—premium and trade-focused
+- Bold, dark aesthetic with orange accents—premium and trade-focused
 - Large inputs, ample spacing, clear labels—optimized for on-site use
 - WCAG AA+ compliant typography and color (high contrast on dark backgrounds)
 - Mobile-first design for field technicians
@@ -154,7 +154,7 @@ Empower plumbing professionals with a pricing assistant that's accurate, fast, a
 - "Smart Pricing" AI suggestions based on job type  
 - Save customer profiles (with consent)  
 - Offline mode (PWA) for no-signal job sites
-- Common plumbing job templates (water heater, drain cleaning, fixture install)
+- Common HVAC job templates (AC installation, furnace replacement, duct cleaning)
 
 ---
 
@@ -169,7 +169,7 @@ Empower plumbing professionals with a pricing assistant that's accurate, fast, a
 | Field technicians need offline access | PWA mode planned for V2 |
 | Free tier abuse (multiple accounts) | Rate limiting, email verification required |
 | Unclear tier differences | Clear comparison table, feature badges in dashboard |
-| Watermark too intrusive | Subtle "Created with PlumbPro Estimate" footer placement |
+| Watermark too intrusive | Subtle "Created with HVAC Estimate Pro" footer placement |
 
 ---
 
@@ -178,18 +178,18 @@ Empower plumbing professionals with a pricing assistant that's accurate, fast, a
 - White-label mode (custom domain + PDF theme)
 - Customer portal (view + approve estimates)
 - Zapier/QuickBooks integration
-- Parts catalog with pricing database
+- Equipment catalog with pricing database
 - Multi-job estimate bundling
 
 ---
 
 ### 📬 Contact
 
-- **Support:** support@plumbproestimate.dev  
-- **General inquiries:** hello@plumbproestimate.dev
+- **Support:** support@hvacestimatepro.dev  
+- **General inquiries:** hello@hvacestimatepro.dev
 
 
-## 🔧 Plumbpro Estimate: Implementation Plan
+## ❄️ HVAC Estimate Pro: Implementation Plan
 
 ---
 
@@ -200,7 +200,7 @@ Empower plumbing professionals with a pricing assistant that's accurate, fast, a
 1. **Setup frontend scaffolding**  
    - Vite + React + Tailwind project  
    - Set up routing (Landing, Signup, Dashboard)
-   - Add favicon with Plumbpro Estimate logo
+   - Add favicon with HVAC Estimate Pro logo
 
 2. **Basic SEO setup**  
    - Add meta title + description to landing page  
@@ -249,7 +249,7 @@ Empower plumbing professionals with a pricing assistant that's accurate, fast, a
 
 10. **Implement `react-pdf` export**  
     - Include job breakdown, company name  
-    - Free tier: Add "Created with PlumbPro Estimate" watermark
+    - Free tier: Add "Created with HVAC Estimate Pro" watermark
     - Paid tiers: Clean PDF without watermark
     - Annual tier: Logo upload support (PNG/SVG)
     - Display note: "Info not stored—for your estimate only"
@@ -310,7 +310,7 @@ Empower plumbing professionals with a pricing assistant that's accurate, fast, a
 - [ ] Basic SEO implemented
 
 
-## 🔧 Plumbpro Estimate: Design System
+## ❄️ HVAC Estimate Pro: Design System
 
 ---
 
@@ -319,11 +319,11 @@ Empower plumbing professionals with a pricing assistant that's accurate, fast, a
 | Style     | Font               | Size (px) | Weight | Notes                                 |
 |-----------|--------------------|-----------|--------|----------------------------------------|
 | H1        | Sans-serif (bold)  | 48–64     | Bold   | White on dark; large impactful headlines |
-| H1 Accent | Sans-serif (bold)  | 48–64     | Bold   | Crimson red animated/cycling text      |
+| H1 Accent | Sans-serif (bold)  | 48–64     | Bold   | Orange animated/cycling text           |
 | H2 / H3   | Sans-serif         | 24–32     | Medium | Generous line height (1.5–1.75×)       |
 | Body      | Neutral sans-serif | 16–18     | Regular| Muted gray on dark; warm cream on light |
 | Help text | Muted, same family | 14–15     | Regular| Clear guidance tone; smaller but legible |
-| Badge     | Sans-serif         | 12–14     | Medium | Uppercase, letter-spaced, crimson bg   |
+| Badge     | Sans-serif         | 12–14     | Medium | Uppercase, letter-spaced, orange bg    |
 
 ✅ All type meets WCAG AA+ contrast and spacing standards.
 
@@ -333,18 +333,18 @@ Empower plumbing professionals with a pricing assistant that's accurate, fast, a
 
 | Purpose        | Hex       | RGB            | Notes                                   |
 |----------------|-----------|----------------|-----------------------------------------|
-| Primary        | `#C41E3A` | 196, 30, 58     | Crimson red — buttons, CTAs, accents    |
-| Primary Dark   | `#A01830` | 160, 24, 48     | Darker crimson — hover states           |
-| Background Dark| `#1A1A1A` | 26, 26, 26      | Near-black — main dark sections         |
-| Background Pattern | `#2A2A2A` | 42, 42, 42  | Subtle cross/plus grid pattern overlay  |
-| Surface Light  | `#E8D5C4` | 232, 213, 196   | Warm cream/beige — light sections       |
-| Surface Wave   | `#D4B896` | 212, 184, 150   | Tan/sand — decorative wave element      |
-| Text Light     | `#FFFFFF` | 255, 255, 255   | White — headlines on dark               |
-| Text Muted     | `#9CA3AF` | 156, 163, 175   | Gray — body text on dark background     |
-| Text Dark      | `#1A1A1A` | 26, 26, 26      | Near-black — text on light sections     |
-| Success state  | `#22C55E` | 34, 197, 94     | Green — confirmations                   |
+| Primary        | `#F97316` | 249, 115, 22   | Orange — buttons, CTAs, accents         |
+| Primary Dark   | `#EA580C` | 234, 88, 12    | Darker orange — hover states            |
+| Background Dark| `#1A1A1A` | 26, 26, 26     | Near-black — main dark sections         |
+| Background Pattern | `#2A2A2A` | 42, 42, 42 | Subtle cross/plus grid pattern overlay  |
+| Surface Light  | `#E8D5C4` | 232, 213, 196  | Warm cream/beige — light sections       |
+| Surface Wave   | `#D4B896` | 212, 184, 150  | Tan/sand — decorative wave element      |
+| Text Light     | `#FFFFFF` | 255, 255, 255  | White — headlines on dark               |
+| Text Muted     | `#9CA3AF` | 156, 163, 175  | Gray — body text on dark background     |
+| Text Dark      | `#1A1A1A` | 26, 26, 26     | Near-black — text on light sections     |
+| Success state  | `#22C55E` | 34, 197, 94    | Green — confirmations                   |
 
-- Use **bold contrast** between dark backgrounds and crimson accents
+- Use **bold contrast** between dark backgrounds and orange accents
 - Subtle **cross/plus pattern** overlay on dark sections for texture
 - **Warm cream wave** transitions between dark and light sections
 - Ensure all text meets 4.5:1 contrast requirements
@@ -353,7 +353,7 @@ Empower plumbing professionals with a pricing assistant that's accurate, fast, a
 
 | Type      | Background | Text Color | Notes                                   |
 |-----------|------------|------------|-----------------------------------------|
-| Primary   | `#C41E3A`  | `#FFFFFF`  | Crimson red; main CTAs with arrow →     |
+| Primary   | `#F97316`  | `#FFFFFF`  | Orange; main CTAs with arrow →          |
 | Secondary | `#2A2A2A`  | `#FFFFFF`  | Dark gray; secondary actions            |
 | Ghost     | transparent| `#FFFFFF`  | Text links, nav items on dark           |
 | Ghost Dark| transparent| `#1A1A1A`  | Text links on light sections            |
@@ -362,11 +362,11 @@ Empower plumbing professionals with a pricing assistant that's accurate, fast, a
 
 ### 🖼 Favicon & Branding
 
-- **Logo:** "PlumbPro" in white + "Estimate" in crimson, with wrench icon
-- **Favicon:** Wrench icon in rounded square badge
+- **Logo:** "HVAC Estimate Pro" with snowflake icon
+- **Favicon:** Snowflake icon in rounded square badge
 - **Recommended formats:** SVG for scalability, PNG fallback (16×16, 32×32, 180×180 for Apple touch)
-- **Favicon colors:** Dark background (#1A1A1A) with crimson (#C41E3A) wrench icon
-- **Badge style:** Crimson background with white uppercase text ("BUILT FOR PLUMBING PROFESSIONALS")
+- **Favicon colors:** Dark background (#1A1A1A) with orange (#F97316) snowflake icon
+- **Badge style:** Orange background with white uppercase text ("BUILT FOR HVAC PROFESSIONALS")
 
 ---
 
@@ -387,9 +387,9 @@ Empower plumbing professionals with a pricing assistant that's accurate, fast, a
 ### 🎞 Motion & Interaction
 
 - **Transition style**: `ease-in-out`, 200–300ms
-- **Animated headline**: Cycling accent words ("accurate", "professional", "fast") in crimson
+- **Animated headline**: Cycling accent words ("accurate", "professional", "fast") in orange
 - **Input fields**: subtle glow when focused on dark backgrounds
-- **Buttons**: lift effect with shadow on hover, darker crimson on press
+- **Buttons**: lift effect with shadow on hover, darker orange on press
 - **Outputs**: live-updated with cross-fade or upward motion
 - **Kind interactions**:
   - Animated checkmark when copying
@@ -402,12 +402,12 @@ Empower plumbing professionals with a pricing assistant that's accurate, fast, a
 ### ✍️ Voice & Tone
 
 - **Bold & Direct** — "Send quotes that are accurate."
-- **Professional** — "Create professional plumbing estimates in under a minute."
+- **Professional** — "Create professional HVAC estimates in under a minute."
 - **Confident** — "No more messy paperwork or lost quotes—just sharp, branded PDFs your clients will trust."
 - **Respectful of privacy** — "Your logo and company name are not stored—they're just for your PDF."
 
 #### Microcopy Examples:
-- **Hero tagline:** "Built for plumbing professionals"
+- **Hero tagline:** "Built for HVAC professionals"
 - **Onboarding CTA (Free):** "Get Started Free →"
 - **Onboarding CTA (Paid):** "Start for $19/month →" or "Save 35% annually →"
 - **Feature highlights:** "PDF Export • Under 60 Seconds • Email to Clients"
@@ -430,7 +430,7 @@ Empower plumbing professionals with a pricing assistant that's accurate, fast, a
 
 - **Dark sections** use the cross/plus pattern overlay
 - **Light sections** use warm cream (#E8D5C4) background
-- **Export PDF** uses crimson accents + clean white background for print clarity
+- **Export PDF** uses orange accents + clean white background for print clarity
 
 ---
 
@@ -438,7 +438,7 @@ Empower plumbing professionals with a pricing assistant that's accurate, fast, a
 
 - All inputs labeled with ARIA
 - Keyboard navigation fully supported
-- Focus rings clear and high-contrast (white or crimson on dark)
+- Focus rings clear and high-contrast (white or orange on dark)
 - Interactive elements pass 4.5:1 contrast
 - White text (#FFFFFF) on dark backgrounds meets AA standards
 - Muted text (#9CA3AF) used only for non-essential content
@@ -454,7 +454,7 @@ Ask this for every screen or interaction:
 
 - Does this interface evoke *bold professionalism*?
 - Does the dark theme feel premium without being intimidating?
-- Are crimson accents drawing attention to the right elements?
+- Are orange accents drawing attention to the right elements?
 - Would a user feel *confident and efficient*, even when rushed on a job site?
 
 ---
@@ -463,7 +463,7 @@ Ask this for every screen or interaction:
 
 - Typography scale aligns to 8pt rhythm
 - Contrast passes WCAG AA+ (especially white/gray text on dark backgrounds)
-- Crimson buttons have sufficient contrast (#C41E3A on #1A1A1A)
+- Orange buttons have sufficient contrast (#F97316 on #1A1A1A)
 - Cross pattern overlay doesn't interfere with text readability
 - Buttons and inputs have visible focus/hover states on dark bg
 - Motion stays between 150–300ms unless intentionally cinematic
@@ -479,8 +479,8 @@ Ask this for every screen or interaction:
 #### 🎨 Color Palette
 
 ```txt
-Primary:          #C41E3A  (crimson red — buttons, CTAs, accents)
-Primary Dark:     #A01830  (darker crimson — hover states)
+Primary:          #F97316  (orange — buttons, CTAs, accents)
+Primary Dark:     #EA580C  (darker orange — hover states)
 Background Dark:  #1A1A1A  (near-black — main dark sections)
 Background Pattern: #2A2A2A (subtle cross/plus grid overlay)
 Surface Light:    #E8D5C4  (warm cream — light sections)
@@ -496,10 +496,10 @@ Success:          #22C55E  (green — confirmations)
 | Element    | Size | Weight  | Color     | Notes                |
 |------------|------|---------|-----------|----------------------|
 | H1         | 56px | Bold    | #FFFFFF   | Sans-serif, white    |
-| H1 Accent  | 56px | Bold    | #C41E3A   | Sans-serif, crimson  |
+| H1 Accent  | 56px | Bold    | #F97316   | Sans-serif, orange   |
 | H2         | 32px | Medium  | #FFFFFF   | Sans-serif headers   |
 | Body       | 18px | Regular | #9CA3AF   | Sans-serif, muted    |
-| Badge      | 13px | Medium  | #FFFFFF   | Uppercase on crimson |
+| Badge      | 13px | Medium  | #FFFFFF   | Uppercase on orange  |
 | Help Text  | 14px | Regular | #9CA3AF   | Input guidance       |
 
 #### 📐 Spacing & Layout
@@ -513,7 +513,7 @@ Success:          #22C55E  (green — confirmations)
 
 #### 🖼 Landing Page Structure
 
-1. **Navigation bar** — Dark bg, logo left, links (Features, Pricing, Login) right, crimson "Get Started" button
+1. **Navigation bar** — Dark bg, logo left, links (Features, Pricing, Login) right, orange "Get Started" button
 2. **Hero section** — Dark bg with cross pattern, badge, animated headline, dual CTAs (Free / Paid)
 3. **Feature icons** — PDF Export, Under 60 Seconds, Email to Clients
 4. **Wave divider** — Cream/tan curved transition
@@ -524,17 +524,17 @@ Success:          #22C55E  (green — confirmations)
 
 ### 🎯 Design Integrity Review
 
-Every interaction in Plumbpro Estimate aims to project bold professionalism and efficiency. The dark theme with crimson accents creates a premium, trade-focused aesthetic that stands out from generic business tools.  
+Every interaction in HVAC Estimate Pro aims to project bold professionalism and efficiency. The dark theme with orange accents creates a premium, trade-focused aesthetic that stands out from generic business tools.  
 **Key design decisions:**
 - Dark backgrounds feel modern and reduce eye strain during long quote sessions
-- Crimson red commands attention for CTAs without feeling aggressive
+- Orange commands attention for CTAs without feeling aggressive
 - Animated cycling text ("accurate", "professional", "fast") adds energy without distraction
 - Warm cream sections provide breathing room and balance the dark theme
 
 **One area to improve:** Consider adding a light mode toggle for users who prefer it during daytime field work.
 
 
-## 🔧 Plumbpro Estimate: App Flow, Pages & Roles
+## ❄️ HVAC Estimate Pro: App Flow, Pages & Roles
 
 ---
 
@@ -553,13 +553,13 @@ Every interaction in Plumbpro Estimate aims to project bold professionalism and 
 ### 📄 Purpose of Each Page
 
 - **Landing Page**  
-  Bold dark hero with animated headline, crimson CTA, and trust-building feature icons. Warm cream sections below for product details. Guide users to "Get Started Free" or paid tiers.
+  Bold dark hero with animated headline, orange CTA, and trust-building feature icons. Warm cream sections below for product details. Guide users to "Get Started Free" or paid tiers.
 
 - **Pricing Page**  
   Three-tier comparison table (Free, Monthly, Annual) with dark background and feature breakdown. Highlight Annual tier savings (35%) and upgrade benefits.
 
 - **Signup & Payment**  
-  Collect email → Select tier → Stripe Link (for paid) → redirect to dashboard. Dark themed forms with crimson accents.
+  Collect email → Select tier → Stripe Link (for paid) → redirect to dashboard. Dark themed forms with orange accents.
 
 - **Login**  
   Return users to dashboard with active session check.
@@ -634,12 +634,12 @@ Every interaction in Plumbpro Estimate aims to project bold professionalism and 
 
 ### 📬 Support & Contact
 
-- **Support:** support@plumbproestimate.dev  
-- **General inquiries:** hello@plumbproestimate.dev
+- **Support:** support@hvacestimatepro.dev  
+- **General inquiries:** hello@hvacestimatepro.dev
 
 ---
 
-## 🔧 Plumbpro Estimate: Calculation Logic
+## ❄️ HVAC Estimate Pro: Calculation Logic
 
 ---
 
@@ -647,8 +647,8 @@ Every interaction in Plumbpro Estimate aims to project bold professionalism and 
 
 | Field | Type | Description |
 |-------|------|-------------|
-| Equipment Cost | Currency ($) | Cost of equipment (water heaters, fixtures, etc.) |
-| Materials Cost | Currency ($) | Cost of parts and supplies (pipes, fittings, etc.) |
+| Equipment Cost | Currency ($) | Cost of equipment (AC units, furnaces, thermostats, etc.) |
+| Materials Cost | Currency ($) | Cost of parts and supplies (ductwork, refrigerant, filters, etc.) |
 | Labor Hours | Number | Total hours for the job |
 | Labor Rate | Currency ($/hr) | Hourly rate for labor |
 | Discount % | Percentage (0-100) | Overall discount to apply |
@@ -683,21 +683,21 @@ Tiered Price = Final Price × Tier Multiplier
 ### 💡 Example Calculation
 
 **Inputs:**
-- Equipment Cost: $450
-- Materials Cost: $125
-- Labor Hours: 4
-- Labor Rate: $85/hr
-- Discount: 10%
+- Equipment Cost: $3,500 (3-ton AC unit)
+- Materials Cost: $450 (refrigerant, ductwork, fittings)
+- Labor Hours: 8
+- Labor Rate: $95/hr
+- Discount: 5%
 
 **Outputs:**
-- Labor Total: 4 × $85 = $340
-- Subtotal: $450 + $125 + $340 = $915
-- Discount Amount: $915 × 0.10 = $91.50
-- Final Price: $915 - $91.50 = $823.50
+- Labor Total: 8 × $95 = $760
+- Subtotal: $3,500 + $450 + $760 = $4,710
+- Discount Amount: $4,710 × 0.05 = $235.50
+- Final Price: $4,710 - $235.50 = $4,474.50
 
 **Tiered Options:**
-- Standard: $823.50
-- Priority: $947.03
-- Emergency: $1,070.55
+- Standard: $4,474.50
+- Priority: $5,145.68
+- Emergency: $5,816.85
 
 ---

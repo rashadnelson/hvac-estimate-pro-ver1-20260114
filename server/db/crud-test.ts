@@ -30,13 +30,13 @@ async function testCRUD() {
         clientAddress: "123 Test St",
         items: [
           {
-            description: "Install faucet",
+            description: "Install thermostat",
             quantity: 1,
             unitPrice: 15000, // $150.00 in cents
             type: "labor" as const,
           },
           {
-            description: "Faucet",
+            description: "Thermostat",
             quantity: 1,
             unitPrice: 7500, // $75.00 in cents
             type: "material" as const,
@@ -91,7 +91,7 @@ async function testCRUD() {
       .insert(settings)
       .values({
         userId: testUserId,
-        companyName: "Test Plumbing Co",
+        companyName: "Test HVAC Co",
         companyLogo: "https://example.com/logo.png",
       })
       .returning();
@@ -117,12 +117,12 @@ async function testCRUD() {
     const [updatedSettings] = await db
       .update(settings)
       .set({
-        companyName: "Updated Plumbing Co",
+        companyName: "Updated HVAC Co",
       })
       .where(eq(settings.userId, testUserId))
       .returning();
     
-    if (updatedSettings && updatedSettings.companyName === "Updated Plumbing Co") {
+    if (updatedSettings && updatedSettings.companyName === "Updated HVAC Co") {
       console.log("✅ Updated settings successfully");
       console.log(`   New company name: ${updatedSettings.companyName}`);
     } else {

@@ -1,6 +1,6 @@
 # Environment Variables Configuration
 
-This document describes all the environment variables required for PlumbPro Estimate.
+This document describes all the environment variables required for HVAC Estimate Pro.
 
 ## Required Environment Variables
 
@@ -15,7 +15,7 @@ This document describes all the environment variables required for PlumbPro Esti
   - Must be kept secure and never committed to version control
   
 - `BETTER_AUTH_URL` - Base URL for Better-Auth (optional in development)
-  - Example: `https://plumbproestimate.dev`
+  - Example: `https://hvacestimatepro.dev`
   - Defaults to `FRONTEND_URL` if not set
 
 ### Email Service (Resend)
@@ -24,7 +24,7 @@ This document describes all the environment variables required for PlumbPro Esti
   - Required for password reset functionality
   
 - `RESEND_FROM_EMAIL` - Email address to send from
-  - Example: `noreply@plumbproestimate.dev`
+  - Example: `noreply@hvacestimatepro.dev`
   - Must be verified in Resend dashboard
 
 ### Stripe Configuration

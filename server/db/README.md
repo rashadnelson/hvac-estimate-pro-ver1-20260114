@@ -1,6 +1,6 @@
 # Database Setup Guide
 
-This guide covers setting up the database for PlumbPro Estimate.
+This guide covers setting up the database for HVAC Estimate Pro.
 
 ## Prerequisites
 

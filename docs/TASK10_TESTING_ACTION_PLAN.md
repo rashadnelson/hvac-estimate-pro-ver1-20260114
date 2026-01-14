@@ -128,7 +128,7 @@
 ```json
 {
   "type": "action",
-  "description": "Fill estimate form: title 'Kitchen Plumbing Repair', client name 'John Doe', client phone '555-1234', client address '123 Main St'. Add line items: Labor item 'Pipe Installation' quantity 2, unit price 150, type 'labor'; Material item 'PVC Pipe' quantity 10, unit price 5, type 'material'"
+  "description": "Fill estimate form: title 'AC Installation - 3 Ton System', client name 'John Doe', client phone '555-1234', client address '123 Main St'. Add line items: Labor item 'AC Unit Installation' quantity 2, unit price 150, type 'labor'; Material item 'Refrigerant Line' quantity 10, unit price 5, type 'material'"
 }
 ```
 
@@ -136,7 +136,7 @@
 ```json
 {
   "type": "action",
-  "description": "Wait for dialog with role='dialog' to be visible. Wait for element with data-testid='estimate-title-input' to be enabled. Fill estimate-title-input with 'Kitchen Plumbing Repair'. Fill estimate-client-name-input with 'John Doe'. Fill estimate-client-phone-input with '555-1234'. Fill estimate-client-address-input with '123 Main St'. Wait for line-item-0-description to be visible. Fill line-item-0-description with 'Pipe Installation'. Click line-item-0-type-select, wait for role='listbox' to appear, click option 'Labor'. Clear and fill line-item-0-quantity with '2'. Clear and fill line-item-0-unit-price with '150'. Click add-line-item-button. Wait for line-item-1-description to be visible. Fill line-item-1-description with 'PVC Pipe'. Click line-item-1-type-select, wait for role='listbox' to appear, click option 'Material'. Clear and fill line-item-1-quantity with '10'. Clear and fill line-item-1-unit-price with '5'. Wait for estimate-total to contain text '350.00'."
+  "description": "Wait for dialog with role='dialog' to be visible. Wait for element with data-testid='estimate-title-input' to be enabled. Fill estimate-title-input with 'AC Installation - 3 Ton System'. Fill estimate-client-name-input with 'John Doe'. Fill estimate-client-phone-input with '555-1234'. Fill estimate-client-address-input with '123 Main St'. Wait for line-item-0-description to be visible. Fill line-item-0-description with 'AC Unit Installation'. Click line-item-0-type-select, wait for role='listbox' to appear, click option 'Labor'. Clear and fill line-item-0-quantity with '2'. Clear and fill line-item-0-unit-price with '150'. Click add-line-item-button. Wait for line-item-1-description to be visible. Fill line-item-1-description with 'Refrigerant Line'. Click line-item-1-type-select, wait for role='listbox' to appear, click option 'Material'. Clear and fill line-item-1-quantity with '10'. Clear and fill line-item-1-unit-price with '5'. Wait for estimate-total to contain text '350.00'."
 }
 ```
 

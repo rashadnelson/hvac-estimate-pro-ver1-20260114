@@ -23,7 +23,7 @@ Add `data-testid` attributes to all form fields for stable selectors:
   data-testid="estimate-title-input"
   value={title}
   onChange={(e) => setTitle(e.target.value)}
-  placeholder="e.g., Kitchen Plumbing Repair"
+  placeholder="e.g., AC Installation - 3 Ton System"
 />
 
 <Input
@@ -140,7 +140,7 @@ await page.wait_for_selector('[role="dialog"]', state='visible')
 await page.wait_for_load_state('networkidle')  # Wait for any async operations
 
 # Interact with form inside dialog
-await page.get_by_test_id('estimate-title-input').fill('Kitchen Plumbing Repair')
+await page.get_by_test_id('estimate-title-input').fill('AC Installation - 3 Ton System')
 ```
 
 ### 5. Handle Select Components (Radix UI)
@@ -216,7 +216,7 @@ async def test_estimate_creation():
     await page.wait_for_selector('[data-testid="estimate-title-input"]', state='visible')
     
     # 6. Fill form fields with proper waits
-    await page.get_by_test_id('estimate-title-input').fill('Kitchen Plumbing Repair')
+    await page.get_by_test_id('estimate-title-input').fill('AC Installation - 3 Ton System')
     await page.get_by_test_id('estimate-client-name-input').fill('John Doe')
     
     # 7. Fill first line item

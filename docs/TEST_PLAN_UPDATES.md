@@ -86,7 +86,7 @@ Updated TestSprite frontend test plans to use unique email generation and proper
 
 ### 4. Standardized Test Data
 - **Password**: `TestPass123` (meets all requirements)
-- **Company Names**: Test-specific (e.g., "Test Plumbing Co", "Estimate Test Co")
+- **Company Names**: Test-specific (e.g., "Test HVAC Co", "Estimate Test Co")
 - **Test Estimates**: Specific data with exact values for verification
 
 ## Test Execution Flow

@@ -1,4 +1,4 @@
-# PlumbPro Estimate - Backend Server
+# HVAC Estimate Pro - Backend Server
 
 This directory contains the backend API server built with Hono, Better-Auth, Drizzle ORM, and Stripe.
 

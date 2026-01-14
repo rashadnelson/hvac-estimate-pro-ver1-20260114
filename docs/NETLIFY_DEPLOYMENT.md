@@ -1,6 +1,6 @@
 # Netlify Deployment Guide
 
-This guide covers deploying PlumbPro Estimate to Netlify.
+This guide covers deploying HVAC Estimate Pro to Netlify.
 
 ## Architecture Overview
 
