@@ -7,7 +7,7 @@ import RelatedPosts from "@/components/blog/RelatedPosts";
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "How to Create HVAC Estimates: Complete Guide for HVAC Technicians [2025]",
+  "headline": "How to Create HVAC Estimates: Complete Guide for HVAC Technicians [2026]",
   "description": "Learn how to create professional HVAC estimates that win more jobs. Complete guide including pricing strategies, what to include, and common mistakes to avoid.",
   "image": "https://hvacestimatepro.dev/og-image.png",
   "author": {
@@ -23,8 +23,8 @@ const articleSchema = {
       "url": "https://hvacestimatepro.dev/favicon.svg"
     }
   },
-  "datePublished": "2025-01-01",
-  "dateModified": "2025-01-14",
+  "datePublished": "2026-01-01",
+  "dateModified": "2026-01-14",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://hvacestimatepro.dev/blog/estimate-guide"
@@ -34,12 +34,12 @@ const articleSchema = {
 const EstimateGuide = () => {
   const relatedPosts = [
     {
-      title: "HVAC Pricing Guide: How Much to Charge for HVAC Jobs [2025]",
+      title: "HVAC Pricing Guide: How Much to Charge for HVAC Jobs [2026]",
       slug: "pricing-guide",
       excerpt: "Complete pricing guide for HVAC technicians. Learn how much to charge for common HVAC jobs, calculate your costs, and maximize profitability.",
     },
     {
-      title: "Best HVAC Estimate Templates: Free vs Paid Options [2025]",
+      title: "Best HVAC Estimate Templates: Free vs Paid Options [2026]",
       slug: "template-comparison",
       excerpt: "Compare free HVAC estimate templates, paid options, and software solutions. Learn which option is best for your HVAC business.",
     },
@@ -48,12 +48,12 @@ const EstimateGuide = () => {
   return (
     <>
       <Helmet>
-        <title>How to Create HVAC Estimates: Complete Guide [2025] | HVAC Estimate Pro</title>
+        <title>How to Create HVAC Estimates: Complete Guide [2026] | HVAC Estimate Pro</title>
         <meta 
           name="description" 
           content="Learn how to create professional HVAC estimates that win more jobs. Complete guide including pricing strategies, what to include, and common mistakes to avoid." 
         />
-        <meta property="og:title" content="How to Create HVAC Estimates: Complete Guide [2025] | HVAC Estimate Pro" />
+        <meta property="og:title" content="How to Create HVAC Estimates: Complete Guide [2026] | HVAC Estimate Pro" />
         <meta property="og:type" content="article" />
         <meta 
           property="og:description" 
@@ -70,12 +70,12 @@ const EstimateGuide = () => {
         {/* Article Header */}
         <header className="mb-8">
           <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-foreground mb-4 leading-tight">
-            How to Create HVAC Estimates: Complete Guide for HVAC Technicians [2025]
+            How to Create HVAC Estimates: Complete Guide for HVAC Technicians [2026]
           </h1>
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
             <span>10 min read</span>
             <span>•</span>
-            <span>Updated January 2025</span>
+            <span>Updated January 2026</span>
           </div>
         </header>
 

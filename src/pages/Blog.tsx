@@ -15,19 +15,19 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
-    title: "How to Create HVAC Estimates: Complete Guide for HVAC Technicians [2025]",
+    title: "How to Create HVAC Estimates: Complete Guide for HVAC Technicians [2026]",
     slug: "estimate-guide",
     excerpt: "Learn how to create professional HVAC estimates that win more jobs. Complete guide including pricing strategies, what to include, and common mistakes to avoid.",
     readTime: "8 min read",
   },
   {
-    title: "HVAC Pricing Guide: How Much to Charge for HVAC Jobs [2025]",
+    title: "HVAC Pricing Guide: How Much to Charge for HVAC Jobs [2026]",
     slug: "pricing-guide",
     excerpt: "Complete pricing guide for HVAC technicians. Learn how much to charge for common HVAC jobs, calculate your costs, and maximize profitability.",
     readTime: "7 min read",
   },
   {
-    title: "Best HVAC Estimate Templates: Free vs Paid Options [2025]",
+    title: "Best HVAC Estimate Templates: Free vs Paid Options [2026]",
     slug: "template-comparison",
     excerpt: "Compare free HVAC estimate templates, paid options, and software solutions. Learn which option is best for your HVAC business.",
     readTime: "6 min read",

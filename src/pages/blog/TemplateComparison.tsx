@@ -8,7 +8,7 @@ import { CheckCircle2, XCircle } from "lucide-react";
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "Best HVAC Estimate Templates: Free vs Paid Options [2025]",
+  "headline": "Best HVAC Estimate Templates: Free vs Paid Options [2026]",
   "description": "Compare free HVAC estimate templates, paid options, and software solutions. Learn which option is best for your HVAC business.",
   "image": "https://hvacestimatepro.dev/og-image.png",
   "author": {
@@ -24,8 +24,8 @@ const articleSchema = {
       "url": "https://hvacestimatepro.dev/favicon.svg"
     }
   },
-  "datePublished": "2025-01-01",
-  "dateModified": "2025-01-14",
+  "datePublished": "2026-01-01",
+  "dateModified": "2026-01-14",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://hvacestimatepro.dev/blog/template-comparison"
@@ -35,12 +35,12 @@ const articleSchema = {
 const TemplateComparison = () => {
   const relatedPosts = [
     {
-      title: "How to Create HVAC Estimates: Complete Guide for HVAC Technicians [2025]",
+      title: "How to Create HVAC Estimates: Complete Guide for HVAC Technicians [2026]",
       slug: "estimate-guide",
       excerpt: "Learn how to create professional HVAC estimates that win more jobs. Complete guide including pricing strategies, what to include, and common mistakes to avoid.",
     },
     {
-      title: "HVAC Pricing Guide: How Much to Charge for HVAC Jobs [2025]",
+      title: "HVAC Pricing Guide: How Much to Charge for HVAC Jobs [2026]",
       slug: "pricing-guide",
       excerpt: "Complete pricing guide for HVAC technicians. Learn how much to charge for common HVAC jobs, calculate your costs, and maximize profitability.",
     },
@@ -49,12 +49,12 @@ const TemplateComparison = () => {
   return (
     <>
       <Helmet>
-        <title>Best HVAC Estimate Templates: Free vs Paid [2025] | HVAC Estimate Pro</title>
+        <title>Best HVAC Estimate Templates: Free vs Paid [2026] | HVAC Estimate Pro</title>
         <meta 
           name="description" 
           content="Compare free HVAC estimate templates, paid options, and software solutions. Learn which option is best for your HVAC business." 
         />
-        <meta property="og:title" content="Best HVAC Estimate Templates: Free vs Paid [2025] | HVAC Estimate Pro" />
+        <meta property="og:title" content="Best HVAC Estimate Templates: Free vs Paid [2026] | HVAC Estimate Pro" />
         <meta property="og:type" content="article" />
         <meta 
           property="og:description" 
@@ -71,12 +71,12 @@ const TemplateComparison = () => {
         {/* Article Header */}
         <header className="mb-8">
           <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-foreground mb-4 leading-tight">
-            Best HVAC Estimate Templates: Free vs Paid Options [2025]
+            Best HVAC Estimate Templates: Free vs Paid Options [2026]
           </h1>
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
             <span>8 min read</span>
             <span>•</span>
-            <span>Updated January 2025</span>
+            <span>Updated January 2026</span>
           </div>
         </header>
 
